@@ -20,11 +20,8 @@ steps:
 
 
 - task: CmdLine@2
-
-
   inputs:
-
--  script: 
+-   script: 
       javac.Sum
 
       java.Sum
