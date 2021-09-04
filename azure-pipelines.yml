@@ -18,13 +18,12 @@ pool:
 
 steps:
 
-
 - task: CmdLine@2
   inputs:
 -   script: 
-      javac.Sum
+      javac.sum
 
-      java.Sum
+      java.sum
 
 
 
